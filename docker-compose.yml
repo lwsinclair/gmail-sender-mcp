@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  gmail-sender-mcp:
+    build: .
+    container_name: gmail-sender-mcp
+    environment:
+      - GMAIL_CLIENT_ID=${GMAIL_CLIENT_ID}
+      - GMAIL_CLIENT_SECRET=${GMAIL_CLIENT_SECRET}
+      - GMAIL_REFRESH_TOKEN=${GMAIL_REFRESH_TOKEN}
+      - GMAIL_USER_EMAIL=${GMAIL_USER_EMAIL}
+    restart: unless-stopped
