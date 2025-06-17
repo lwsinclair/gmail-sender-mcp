@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/abhishekloiwal-gmail-sender-mcp-badge.png)](https://mseep.ai/app/abhishekloiwal-gmail-sender-mcp)
+
 # Gmail Sender MCP Server
 
 A Model Context Protocol (MCP) server that enables Claude and other AI assistants to send emails via Gmail API. This focused version only provides email sending capabilities.
